@@ -43,3 +43,7 @@ The 2D proteome map illustrates the distribution of HSV-1 proteins based on thei
 Principal Component Analysis (PCA) was performed to determine the major compositional axes differentiating HSV-1 protein categories. The first two components captured a substantial proportion of the variance, with PC1 explaining approximately 47% and PC2 accounting for around 18% of the total variation. Membrane proteins exhibited the most pronounced separation along PC1, primarily driven by the contrast between hydrophobic and hydrophilic amino acid content. In contrast, the Envelope, Capsid, and Other protein groups clustered more closely together, indicating a higher degree of compositional similarity among the non-membranous proteins.The PCA confirms that hydrophobic enrichment is the dominant compositional feature differentiating HSV-1 protein classes, underpinning their distinct structural and environmental adaptations.
 
 <img width="1000" height="600" alt="PCA_aa_frequencies" src="https://github.com/user-attachments/assets/d10a6df9-0e52-42f6-a413-ddbe65efc629" />
+
+# Reproducibility and Code Availability
+All analyses described in this study were performed using the script **`viral_proteome_analysis.py`**, which automates data parsing, amino acid statistics, and figure generation. The script can be executed directly to reproduce all quantitative outputs and visualizations presented above.
+
